@@ -62,6 +62,7 @@
 
                 <label for="state">Estado:</label>
                 <select id="state" name="userState" required>
+                    <option value="notInformed">Selecione...</option>
                     <option value="acre">Acre</option>
                     <option value="alagoas">Alagoas</option>
                     <option value="amapa">Amapá</option>
@@ -93,6 +94,7 @@
 
                 <label for="city">Cidade</label>
                 <select id="city" name="userCity" id>
+                    <option value="notInformed">Selecione...</option>
                     <option value="saoPaulo">São Paulo</option>
                     <option value="campinas">Campinas</option>
                     <option value="guarulhos">Guarulhos</option>
@@ -121,8 +123,15 @@
                 <br>
                 <input id="x" type="checkbox" name="social" value="x">
                 <label for="x">X</label>
-                
-
+                <br>
+                <label for="musicStyle">Estilo musical:</label>
+                <input list="styleTypes" id="musicStyle" name="userMusicStyle" type="text">
+                <datalist id="styleTypes">
+                    <option value="rock"></option>
+                    <option value="pop"></option>
+                    <option value="samba"></option>
+                    <option value="sertanejo"></option>
+                </datalist>
             </fieldset>
             <button type="submit">Enviar</button>
 
