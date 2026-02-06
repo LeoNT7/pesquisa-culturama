@@ -26,6 +26,11 @@ img {
 
 h1 {
     font-family: "Fjalla One", sans-serif;
+    text-align: center;
+}
+
+body > h1 {
+    color: green;
 }
 
 form {

@@ -19,7 +19,7 @@
             <h1>Pesquisa de Opinião</h1>
         </header>
         <section>
-            <form action="" method="get">
+            <form action="sucesso.html" method="get">
                 
                 <fieldset>
 
@@ -101,19 +101,19 @@
                     </select>
 
                     <label for="city">Cidade</label>
-                    <select id="city" name="userCity" id>
-                        <option value="notInformed">Selecione...</option>
-                        <option value="saoPaulo">São Paulo</option>
-                        <option value="campinas">Campinas</option>
-                        <option value="guarulhos">Guarulhos</option>
-                        <option value="saoBernardoDoCampo">São Bernardo do Campo</option>
-                        <option value="santoAndre">Santo André</option>
-                        <option value="osasco">Osasco</option>
-                        <option value="ribeiraoPreto">Ribeirão Preto</option>
-                        <option value="sorocaba">Sorocaba</option>
-                        <option value="bauru">Bauru</option>
-                        <option value="piracicaba">Piracicaba</option>
-                    </select>
+                    <input list="cityTypes" id="cityTypesId" name="userCity" type="text">
+                    <datalist id="cityTypes">
+                        <option value="São Paulo"></option>
+                        <option value="Campinas"></option>
+                        <option value="Guarulhos"></option>
+                        <option value="São Bernardo do Campo"></option>
+                        <option value="Santo André"></option>
+                        <option value="Osasco"></option>
+                        <option value="Ribeirão Preto"></option>
+                        <option value="Sorocaba"></option>
+                        <option value="Bauru"></option>
+                        <option value="Piracicaba"></option>
+                    </datalist>
 
                 </fieldset>
 
